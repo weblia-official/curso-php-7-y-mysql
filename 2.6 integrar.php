@@ -5,7 +5,7 @@
 
 <?php
 
-//Integrando HTML en PHP
+//Integrando HTML en PHP 
 
 echo "<h3>Hola, estoy integrando HTML en PHP</h3>";
 
