@@ -1,0 +1,6 @@
+UPDATE comentarios SET calificacion = 5 WHERE id = 2;
+
+
+UPDATE comentarios set nombre = UPPER(nombre), comentario = UPPER(comentario);
+
+UPDATE comentarios set nombre = LOWER(nombre), comentario = LOWER(comentario);

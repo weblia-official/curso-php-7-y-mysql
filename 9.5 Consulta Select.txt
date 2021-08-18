@@ -1,0 +1,12 @@
+SELECT * FROM comentarios;
+
+SELECT * FROM comentarios WHERE id=1;
+
+SELECT * FROM comentarios WHERE nombre = ‘Carlos Valdes’ OR nombre = ‘Alan Rodriguez’;
+
+SELECT * FROM comentarios WHERE nombre = ‘Carlos Valdes’ AND id = 1;
+
+SELECT * FROM comentarios WHERE calificación BETWEEN 4 AND 5;
+
+SELECT * FROM comentarios WHERE calificación NOT BETWEEN 4 AND 5;
+

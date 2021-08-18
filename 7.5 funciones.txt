@@ -1,0 +1,11 @@
+trim
+strip_tags
+isset
+isnull
+isempty
+htmlentities
+htmlespecialchars
+real_escape_string
+is_numeric
+
+<iframe frameborder=0 src=http://localhost/6.-%20M%C3%A9todos%20HTTP/iframe.php width=500 height=200</iframe>

@@ -1,0 +1,7 @@
+INSERT INTO tabla VALUES(NULL,’Carlos Valdes’, ‘Excelente Página’, NOW(), 4);
+
+INSERT INTO tabla SET id=NULL, nombre = ‘Carlos Valdes’, comentario = ‘Excelente página’, fecha = NOW(), calificacion = 5;
+
+INSERT INTO tabla (id,nombre,comentario, fecha, calificacion) VALUES (NULL,’Carlos Valdes’, ‘Excelente Página’, NOW(), 3);
+
+INSERT INTO comentarios SELECT NULL, nombre, comentario, NOW(), calificacion FROM comentarios WHERE id = 1;
